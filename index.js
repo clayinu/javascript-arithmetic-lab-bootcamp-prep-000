@@ -36,9 +36,12 @@ function makeInt(n) {
   parseInt(n, 10)
   return n
   parseInt('nonsense', 10)
+  return n
 }
 
 function preserveDecimal(n) {
   parseInt('2.222', 10)
+  return n
+  parseInt('sldkjflksjf', 10)
   return n
 }
