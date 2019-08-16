@@ -35,5 +35,6 @@ function makeInt(n) {
   return n
   parseInt(n, 10)
   return n
-  
+  parseInt('nonsense', 10)
 }
+
